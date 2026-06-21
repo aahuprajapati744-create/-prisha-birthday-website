@@ -30,21 +30,21 @@ const CONFIG = {
     { icon: "🥳", condition: "you're happy", message: "your happiness is so important to me that if you aint happy ill make a fool of myself, make shitty jokes, will do cringy eww flirt that uk just to get that smile on your face" },
     { icon: "😢", condition: "you're sad", message: "it's okay. You don't have to be strong all the time... my shoulder is always here to lean on , I'm right here. You are not alone, not even for a moment.  I love you so much, and that never changes." },
     { icon: "🌙", condition: "you can't sleep", message: "Close your eyes, love. Think of every beautiful thing we've shared — every laugh, every quiet moment, every adventure big and small. You are so loved. The world is peaceful tonight, and so are you. I'm always with you, even in the silence." },
-    { icon: "😤", condition: "you're stressed", message: "" },
-    { icon: "💭", condition: "you miss me", message: "I miss you too, more than you know. But think of this — every second apart just makes our next hello feel like magic. I carry you with me everywhere I go. You're in every good thought I have. I'll be right there before you know it. 💖" },
-    { icon: "🎂", condition: "it's your birthday", message: "Happy Birthday, my love! Today I want you to feel exactly how loved you truly are. You bring so much light, joy, and magic into this world — into MY world. This year is going to be incredible, because you are incredible. Here's to you, all of you, forever. 🌸🎉" }
+    { icon: "😤", condition: "you're stressed", message: "breathe bacche, you can do it. You can always do it. You believe in yourself. I believe in you and always well, you aint failling down and even if you do, you will get back up my love. I know that...u r my strong independent baccha💋" },
+    { icon: "💭", condition: "you miss me", message: "I miss you moreeee, more than you know. But think of this — every second apart just makes us more cursious abt each other ik it would be better if I was there, but soon enough, I will be my love. I carry you with me everywhere I go. You're in every good thought I have. I'll be right there before you know it. 💖" },
+    { icon: "🎂", condition: "it's your birthday", message: "Happy Birthday, my love! Today I want you to feel exactly how loved you truly are. You bring so much emotions, joyness, loveeeee to this world — into MY world... that it would be a shame to not celebrate it.. This year is going to be incredible, because you are incredible. Here's to your 19 th bday 🥂 🌸🎉" }
   ],
 
   reasonsILoveYou: [
-    { icon: "😊", reason: "The way your eyes light up when you laugh" },
-    { icon: "💡", reason: "How your mind works — curious, brilliant, beautiful" },
-    { icon: "🤗", reason: "The warmth you carry everywhere you go" },
-    { icon: "💪", reason: "Your quiet, extraordinary strength" },
-    { icon: "🌸", reason: "The way you make everyone around you feel seen" },
-    { icon: "☕", reason: "Lazy mornings that feel like the whole world is ours" },
-    { icon: "🎶", reason: "How you sing along without caring who hears" },
+    { icon: "😊", reason: "The way your eyes light up when you see me everytimeeeeeeeeeeeee" },
+    { icon: "💡", reason: "tussi ho toh bahut sharp minded intelligent businesss woman " },
+    { icon: "🤗", reason: "I just wanna hug you whenever I see you and every time I see u" },
+    { icon: "💪", reason: "tussi punjabi ho no explaination needed" },
+    { icon: "🌸", reason: "u remind of orchidssss" },
+    { icon: "💋", reason: "uhmm uhmm no explaination" },
+    { icon: "👀", reason: "u have the most beautiful eyessss khanna ji for god sake at first i I didn't even believed that it was real" },
     { icon: "🌙", reason: "The way late nights with you feel like home" },
-    { icon: "🦋", reason: "Your gentle, enormous heart" },
+    { icon: "🦋", reason: "Your gentle heart" },
     { icon: "✨", reason: "Everything you are — exactly as you are" },
     { icon: "🌺", reason: "The way you care about the smallest things" },
     { icon: "🎯", reason: "Your determination when you set your mind to something" }
@@ -52,9 +52,9 @@ const CONFIG = {
 
   songs: [
     { cover: "🎵", title: "Perfect", artist: "Ed Sheeran", description: "Because every word of this song is about us.", link: "https://open.spotify.com/track/0tgVpDi06FyKpA1z0VMD4v" },
-    { cover: "🎸", title: "All of Me", artist: "John Legend", description: "You are all I need and all I'll ever want.", link: "https://open.spotify.com/track/3U4isOIWM3VvDubwSI3y7a" },
+    { cover: "🎸", title: "dil tu jaan tu", artist: "gurnazar", description: "cause tenu ki dassaan mere layi kya tu.", link: "https://open.spotify.com/track/69Qzz3yyQSsA0T95jLDoPL?si=Mex_N8sdRx2tZcrrwDwepw },
     { cover: "🌹", title: "A Thousand Years", artist: "Christina Perri", description: "I have loved you for a thousand years.", link: "https://open.spotify.com/track/6lanRgr6wXibZr8KgzXxBl" },
-    { cover: "💫", title: "Thinking Out Loud", artist: "Ed Sheeran", description: "People fall in love in mysterious ways — I fell for you.", link: "" }
+    { cover: "💫", title: "nothing", artist: "bruno major", description: "ourr songgggg.", link: "https://open.spotify.com/track/1lORkxEMmsCZqhoxcmk3A3?si=l6cG21-CSrSzbp0jLl1XFA" }
   ],
 
   scrapbook: [
