@@ -87,8 +87,28 @@ const CONFIG = {
     { flag: "🌸", name: "South Korea", description: "K-vibes, street food, neon and nature", photo: "" }
   ],
 
-  finalLetter: "Write your personal letter here…\n\nTell her how much she means to you, what makes her extraordinary, and how grateful you are that she exists in your world.\n\nEvery word you write here is a gift she will treasure forever.",
+  finalLetter: `My baccha,
 
+It’s your nineteenth birthday… 🎂❤️
+
+I’m not with you this time to celebrate it, but I’ll be there soon enough, don’t worry!!!! My baccha ab 19th ka ho gaya? But you still remain a kid to me!! That stubborn, gusse wala, naraz hone wala pyaara sa baccha. ❤️
+
+Aapse kitni bhi baat kar loon, kitna bhi saath reh loon, I can never get enough of you. Bas mann karta hai ki aapke saath hi rahun hameshaaa hameshaaa, 24/7. 🫶🏻
+
+It feels like just yesterday when you were 18, and dekhte hi dekhte 19 it is nowww. You’re growing faster than I ever expected. You’re much more mature and responsible now, not the silly girl I used to know… (silly with me present time mein bhi btw 😚).
+
+I am truly blessed to have you in my life, and I am so thankful that I get to call you THE LOVE OF MY LIFE. ❤️
+
+Never thought I’d ever love anyone thisss crazyyy the way I’m loving you right now. Every day with you feels special, every conversation feels precious, and every memory with you becomes something I want to hold onto forever.
+
+No matter where life takes us, I want you to know that I’m always here with youuuuu, Khanna jii. Through the good days, the bad days, the happy days, the emotional days — always. 💕
+
+Thank you for being you. Thank you for loving me. Thank you for making my world brighter than it has ever been.
+
+HAPPY BIRTHDAY MY LOVE!!! ❤️❤️❤️❤️❤️❤️
+
+Forever yours,
+Pulkit 💕`
   konamiMessage: "You found the secret! You're as clever as you are beautiful. Here's a secret: you know what? my love I'm falling each day for you even on the days that are not going well in our bond and it will still grow for u and it come a the point where i will flood u with my loveeeeeeeeeeeeeeeee❤️.. 💖✨",
 
   hiddenCompliments: [
