@@ -92,12 +92,11 @@ const CONFIG = {
   konamiMessage: "You found the secret! You're as clever as you are beautiful. Here's a secret: you know what? my love I'm falling each day for you even on the days that are not going well in our bond and it will still grow for u and it come a the point where i will flood u with my loveeeeeeeeeeeeeeeee❤️.. 💖✨",
 
   hiddenCompliments: [
-    "You are absolutely radiant today 🌸",
+    "You are beautiful as everrrrrrrrrr 🌸",
     "Your smile could light up the darkest room 💫",
     "The world is so much better with you in it ✨",
-    "You are loved beyond measure 💖",
+    "it is your world we just livin' in it 💖",
     "Everything about you is perfect 🌺",
-    "You make magic look effortless 🦋"
   ],
 
   romanticQuotes: [
