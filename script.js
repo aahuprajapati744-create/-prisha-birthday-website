@@ -8,7 +8,7 @@ const CONFIG = {
   birthday: "2025-06-22",
   heroMessage: "MADE WITH LOVE BY YOUR MAN",
   senderName: "PULKIT PRAJAPATI💕",
-  surpriseMessage: "its your special day my love, i have tried to make the best of efforts hope u will love it🫶🏻",
+  surpriseMessage: "you know what? my love I'm falling each day for you even on the days that are not going well in our bond and it will still grow for u and it come a the point where i will flood u with my loveeeeeeeeeeeeeeeee❤️.. 💖✨",
 
   timeline: [
     { date: "Day One", title: "The day we met", description: "the day we met i never thought i would have you in my life like the love of my life", photo: "2410159d-83f3-4180-84fe-895f512d5892.jpeg" },
