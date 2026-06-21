@@ -40,7 +40,7 @@ const CONFIG = {
     { icon: "💡", reason: "tussi ho toh bahut sharp minded intelligent businesss woman " },
     { icon: "🤗", reason: "I just wanna hug you whenever I see you and every time I see u" },
     { icon: "💪", reason: "tussi punjabi ho no explaination needed" },
-    { icon: "🌸", reason: "u remind of orchidssss" },
+    { icon: "🌸", reason: "the way you treat me" },
     { icon: "💋", reason: "uhmm uhmm no explaination" },
     { icon: "👀", reason: "u have the most beautiful eyessss khanna ji for god sake at first i I didn't even believed that it was real" },
     { icon: "🌙", reason: "The way late nights with you feel like home" },
