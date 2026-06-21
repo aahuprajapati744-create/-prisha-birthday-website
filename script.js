@@ -11,10 +11,10 @@ const CONFIG = {
   surpriseMessage: "its your special day my love, i have tried to make the best of efforts hope u will love it🫶🏻",
 
   timeline: [
-    { date: "Day One", title: "The day we met", description: "I didn't know it then, but meeting you was the beginning of the best chapter of my life.", photo: "" },
-    { date: "First date", title: "Our first adventure", description: "Butterflies, laughter, and the quiet certainty that I never wanted this to end.", photo: "" },
-    { date: "A special day", title: "When I knew", description: "That moment I realised — you are the person I've been looking for all along.", photo: "" },
-    { date: "Recently", title: "Still falling", description: "Every single day I discover a new reason why I love you more than the day before.", photo: "" }
+    { date: "Day One", title: "The day we met", description: "the day we met i never thought i would have you in my life like the love of my life", photo: "" },
+    { date: "First date", title: "Our best moment", description: "i will consider the isckon as our best date yet, the peace and presence of kanha jii .....the moment i will never forget", photo: "" },
+    { date: "A special day", title: "When I knew", description: "every single day is special with you khanna jiii like u have never disappointed me ever you r someone who puts increbile amount of effort into this bond that it make the bond so easy for us to growwwww i m just incredibly luck to have u my love", photo: "" },
+    { date: "Recently", title: "Still falling", description: "im still falling for u, my honeymoon phase aint ending soon u shoul know that, it all just feels like a dreammmmmmmmmmmm😭🫶🏻", photo: "" }
   ],
 
   gallery: [
