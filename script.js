@@ -5,10 +5,10 @@
 
 const CONFIG = {
   name: "Prisha",
-  birthday: "2025-06-21",
-  heroMessage: "Every day with you feels like the most beautiful dream. Today, the whole universe stops just to celebrate you. 💕",
-  senderName: "Your love",
-  surpriseMessage: "You are the most extraordinary person in my universe. Every single day I fall more in love with you. Happy Birthday, my love! 🌸✨💖",
+  birthday: "2025-06-22",
+  heroMessage: "MADE WITH LOVE BY YOUR MAN",
+  senderName: "PULKIT PRAJAPATI💕",
+  surpriseMessage: "its your special day my love, i have tried to make the best of efforts hope u will love it🫶🏻",
 
   timeline: [
     { date: "Day One", title: "The day we met", description: "I didn't know it then, but meeting you was the beginning of the best chapter of my life.", photo: "" },
