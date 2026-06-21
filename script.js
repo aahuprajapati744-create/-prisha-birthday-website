@@ -66,22 +66,22 @@ const CONFIG = {
   ],
 
   bucketList: [
-    { emoji: "🌅", item: "Watch a sunset together on a rooftop" },
+    { emoji: "🗼", item: "going to Paris together" },
     { emoji: "🚗", item: "Spontaneous late-night drive with no destination" },
     { emoji: "🍳", item: "Cook an entire fancy meal together" },
-    { emoji: "🏕️", item: "Camp under a sky full of stars" },
-    { emoji: "📚", item: "Read the same book and talk about it" },
+    { emoji: "🚢", item: "go disney cruiseeeee" },
+    { emoji: "🛕", item: "go vrindavan saathh" },
     { emoji: "🌊", item: "See the ocean at sunrise" },
     { emoji: "🎭", item: "Attend a live concert or show" },
-    { emoji: "🌿", item: "Get lost in a beautiful forest" },
-    { emoji: "🎨", item: "Paint something terrible together and frame it" },
+    { emoji: "🌿", item: "oneeeeee adventureeee atleastttttttr" },
+    { emoji: "🌝", item: "night talks on beach" },
     { emoji: "🌍", item: "Explore a city neither of us has ever seen" }
   ],
 
   travelList: [
     { flag: "🗼", name: "Paris", description: "City of lights, love, and croissants", photo: "" },
     { flag: "🏔️", name: "Switzerland", description: "Snow-capped peaks and fairy-tale villages", photo: "" },
-    { flag: "🌺", name: "Bali", description: "Temples, rice fields, and golden sunsets", photo: "" },
+    { flag: "🗽", name: "usa", description: "innovative, ambitious, and your favourite country at least so far", photo: "" },
     { flag: "🏝️", name: "Maldives", description: "Crystal water and infinite sky", photo: "" },
     { flag: "⛩️", name: "Japan", description: "Cherry blossoms, lanterns, ancient magic", photo: "" },
     { flag: "🌸", name: "South Korea", description: "K-vibes, street food, neon and nature", photo: "" }
@@ -89,7 +89,7 @@ const CONFIG = {
 
   finalLetter: "Write your personal letter here…\n\nTell her how much she means to you, what makes her extraordinary, and how grateful you are that she exists in your world.\n\nEvery word you write here is a gift she will treasure forever.",
 
-  konamiMessage: "You found the secret! You're as clever as you are beautiful. Here's a secret: I fall in love with you a little more every single day. 💖✨",
+  konamiMessage: "You found the secret! You're as clever as you are beautiful. Here's a secret: you know what? my love I'm falling each day for you even on the days that are not going well in our bond and it will still grow for u and it come a the point where i will flood u with my loveeeeeeeeeeeeeeeee❤️.. 💖✨",
 
   hiddenCompliments: [
     "You are absolutely radiant today 🌸",
