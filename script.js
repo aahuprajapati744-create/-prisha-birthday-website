@@ -108,7 +108,7 @@ Thank you for being you. Thank you for loving me. Thank you for making my world 
 HAPPY BIRTHDAY MY LOVE!!! ❤️❤️❤️❤️❤️❤️
 
 Forever yours,
-Pulkit 💕`
+Pulkit 💕`,
   konamiMessage: "You found the secret! You're as clever as you are beautiful. Here's a secret: you know what? my love I'm falling each day for you even on the days that are not going well in our bond and it will still grow for u and it come a the point where i will flood u with my loveeeeeeeeeeeeeeeee❤️.. 💖✨",
 
   hiddenCompliments: [
