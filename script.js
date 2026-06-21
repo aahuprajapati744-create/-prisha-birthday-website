@@ -18,12 +18,13 @@ const CONFIG = {
   ],
 
   gallery: [
-    { url: "", caption: "Our first photo together 📸" },
-    { url: "", caption: "That perfect afternoon ☀️" },
-    { url: "", caption: "Laughing 😄" },
-    { url: "", caption: "💋 🌅" },
-    { url: "", caption: "memory 🗺️" },
-    { url: "", caption: "Just us 💖" }
+    { url: "IMG_3693.jpeg", 
+    { url: "IMG_6605.jpeg", 
+    { url: "IMG_6703.jpeg", 
+    { url: "IMG_6916.jpeg", 
+    { url: "IMG_7219.png", 
+    { url: "IMG_7320.jpeg", 
+     
   ],
 
   letters: [
