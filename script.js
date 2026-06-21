@@ -24,7 +24,6 @@ const CONFIG = {
     { url: "IMG_6916.jpeg", 
     { url: "IMG_7219.png", 
     { url: "IMG_7320.jpeg", 
-     
   ],
 
   letters: [
@@ -59,11 +58,11 @@ const CONFIG = {
   ],
 
   scrapbook: [
-    { photo: "", caption: "Our favourite place 🌸", sticker: "⭐" },
-    { photo: "", caption: "That perfect day", sticker: "🌈" },
-    { photo: "", caption: "You & me 💕", sticker: "🦋" },
-    { photo: "", caption: "The best adventure", sticker: "🌺" },
-    { photo: "", caption: "Cherished forever", sticker: "✨" }
+    { photo: "IMG_8573.jpeg", caption: "Our favourite place 🌸", sticker: "⭐" },
+    { photo: "8FF12107-9F11-4E35-9122-3AC50429B8A7.jpeg", caption: "That perfect day", sticker: "🌈" },
+    { photo: "47c84873-075a-4746-b3be-6936ab2d6b78.jpeg", caption: "You & me 💕", sticker: "🦋" },
+    { photo: "IMG_7571.jpeg", caption: "us", sticker: "🌺" },
+    { photo: "IMG_6758.jpeg", caption: "Cherished forever", sticker: "✨" }
   ],
 
   bucketList: [
