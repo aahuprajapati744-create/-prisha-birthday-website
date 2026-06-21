@@ -17,14 +17,14 @@ const CONFIG = {
     { date: "Recently", title: "Still falling", description: "im still falling for u, my honeymoon phase aint ending soon u shoul know that, it all just feels like a dreammmmmmmmmmmm😭🫶🏻", photo: "7A856406-BE1E-473C-99D5-4717E2EB59F7.jpeg" }
   ],
 
-  gallery: [
-    { url: "IMG_3693.jpeg", 
-    { url: "IMG_6605.jpeg", 
-    { url: "IMG_6703.jpeg", 
-    { url: "IMG_6916.jpeg", 
-    { url: "IMG_7219.png", 
-    { url: "IMG_7320.jpeg", 
-  ],
+   gallery: [
+  { url: "IMG_3693.jpeg", caption: "💕" },
+  { url: "IMG_6605.jpeg", caption: "💕" },
+  { url: "IMG_6703.jpeg", caption: "💕" },
+  { url: "IMG_6916.jpeg", caption: "💕" },
+  { url: "IMG_7219.png", caption: "💕" },
+  { url: "IMG_7320.jpeg", caption: "💕" }
+],
 
   letters: [
     { icon: "🥳", condition: "you're happy", message: "your happiness is so important to me that if you aint happy ill make a fool of myself, make shitty jokes, will do cringy eww flirt that uk just to get that smile on your face" },
