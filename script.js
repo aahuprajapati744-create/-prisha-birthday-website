@@ -11,10 +11,10 @@ const CONFIG = {
   surpriseMessage: "its your special day my love, i have tried to make the best of efforts hope u will love it🫶🏻",
 
   timeline: [
-    { date: "Day One", title: "The day we met", description: "the day we met i never thought i would have you in my life like the love of my life", photo: "" },
-    { date: "First date", title: "Our best moment", description: "i will consider the isckon as our best date yet, the peace and presence of kanha jii .....the moment i will never forget", photo: "" },
-    { date: "A special day", title: "When I knew", description: "every single day is special with you khanna jiii like u have never disappointed me ever you r someone who puts increbile amount of effort into this bond that it make the bond so easy for us to growwwww i m just incredibly luck to have u my love", photo: "" },
-    { date: "Recently", title: "Still falling", description: "im still falling for u, my honeymoon phase aint ending soon u shoul know that, it all just feels like a dreammmmmmmmmmmm😭🫶🏻", photo: "" }
+    { date: "Day One", title: "The day we met", description: "the day we met i never thought i would have you in my life like the love of my life", photo: "2410159d-83f3-4180-84fe-895f512d5892.jpeg" },
+    { date: "First date", title: "Our best moment", description: "i will consider the isckon as our best date yet, the peace and presence of kanha jii .....the moment i will never forget", photo: "IMG_8587.jpeg" },
+    { date: "A special day", title: "When I knew", description: "every single day is special with you khanna jiii like u have never disappointed me ever you r someone who puts increbile amount of effort into this bond that it make the bond so easy for us to growwwww i m just incredibly luck to have u my love", photo: "657B2C0E-8788-4C66-9E6E-DEDC3FA83C72.jpeg" },
+    { date: "Recently", title: "Still falling", description: "im still falling for u, my honeymoon phase aint ending soon u shoul know that, it all just feels like a dreammmmmmmmmmmm😭🫶🏻", photo: "7A856406-BE1E-473C-99D5-4717E2EB59F7.jpeg" }
   ],
 
   gallery: [
