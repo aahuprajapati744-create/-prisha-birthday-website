@@ -52,7 +52,7 @@ const CONFIG = {
 
   songs: [
     { cover: "🎵", title: "Perfect", artist: "Ed Sheeran", description: "Because every word of this song is about us.", link: "https://open.spotify.com/track/0tgVpDi06FyKpA1z0VMD4v" },
-    { cover: "🎸", title: "dil tu jaan tu", artist: "gurnazar", description: "cause tenu ki dassaan mere layi kya tu.", link: "https://open.spotify.com/track/69Qzz3yyQSsA0T95jLDoPL?si=Mex_N8sdRx2tZcrrwDwepw },
+    { cover: "🎸", title: "dil tu jaan tu", artist: "gurnazar", description: "cause tenu ki dassaan mere layi kya tu.", link: "https://open.spotify.com/track/69Qzz3yyQSsA0T95jLDoPL?si=Mex_N8sdRx2tZcrrwDwepw" },
     { cover: "🌹", title: "A Thousand Years", artist: "Christina Perri", description: "I have loved you for a thousand years.", link: "https://open.spotify.com/track/6lanRgr6wXibZr8KgzXxBl" },
     { cover: "💫", title: "nothing", artist: "bruno major", description: "ourr songgggg.", link: "https://open.spotify.com/track/1lORkxEMmsCZqhoxcmk3A3?si=l6cG21-CSrSzbp0jLl1XFA" }
   ],
