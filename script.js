@@ -20,17 +20,17 @@ const CONFIG = {
   gallery: [
     { url: "", caption: "Our first photo together 📸" },
     { url: "", caption: "That perfect afternoon ☀️" },
-    { url: "", caption: "Laughing at nothing 😄" },
-    { url: "", caption: "The golden hour 🌅" },
-    { url: "", caption: "Adventures await 🗺️" },
+    { url: "", caption: "Laughing 😄" },
+    { url: "", caption: "💋 🌅" },
+    { url: "", caption: "memory 🗺️" },
     { url: "", caption: "Just us 💖" }
   ],
 
   letters: [
-    { icon: "🥳", condition: "you're happy", message: "Your happiness is my favourite sound in the world. When you smile, everything around me glows a little brighter. Never stop being this version of you — radiant, alive, and so wonderfully you. Enjoy every single second of this feeling, you deserve it completely." },
-    { icon: "😢", condition: "you're sad", message: "Hey, it's okay. You don't have to be strong all the time. Let yourself feel it — I'm right here. You are not alone, not even for a moment. Every storm eventually passes, and I promise there is always sunshine on the other side. I love you so much, and that never changes." },
+    { icon: "🥳", condition: "you're happy", message: "your happiness is so important to me that if you aint happy ill make a fool of myself, make shitty jokes, will do cringy eww flirt that uk just to get that smile on your face" },
+    { icon: "😢", condition: "you're sad", message: "it's okay. You don't have to be strong all the time... my shoulder is always here to lean on , I'm right here. You are not alone, not even for a moment.  I love you so much, and that never changes." },
     { icon: "🌙", condition: "you can't sleep", message: "Close your eyes, love. Think of every beautiful thing we've shared — every laugh, every quiet moment, every adventure big and small. You are so loved. The world is peaceful tonight, and so are you. I'm always with you, even in the silence." },
-    { icon: "😤", condition: "you're stressed", message: "Breathe. Just breathe. Whatever it is, it will pass — everything always does. You are so much stronger than you know. Take a break. Drink some water. Remember that you have handled every hard thing that ever came your way. You've got this, and I've got you." },
+    { icon: "😤", condition: "you're stressed", message: "" },
     { icon: "💭", condition: "you miss me", message: "I miss you too, more than you know. But think of this — every second apart just makes our next hello feel like magic. I carry you with me everywhere I go. You're in every good thought I have. I'll be right there before you know it. 💖" },
     { icon: "🎂", condition: "it's your birthday", message: "Happy Birthday, my love! Today I want you to feel exactly how loved you truly are. You bring so much light, joy, and magic into this world — into MY world. This year is going to be incredible, because you are incredible. Here's to you, all of you, forever. 🌸🎉" }
   ],
