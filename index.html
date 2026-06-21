@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="page-title">Happy Birthday 💖</title>
+    <meta
+      name="description"
+      content="A special birthday website made with love"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&family=Dancing+Script:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css?v=4" />
+  </head>
+  <body>
+    <!-- ========== CUSTOM CURSOR ========== -->
+    <div id="cursor" class="cursor"></div>
+    <div id="cursorTrail" class="cursor-trail"></div>
+
+    <!-- ========== SCROLL PROGRESS BAR ========== -->
+    <div id="scrollBar" class="scroll-progress-bar"></div>
+
+    <!-- ========== AMBIENT BACKGROUND ========== -->
+    <canvas id="ambientCanvas" class="ambient-canvas"></canvas>
+
+    <!-- ========== LOADING SCREEN ========== -->
+    <div id="loader">
+      <canvas id="loaderCanvas" class="loader-canvas"></canvas>
+      <div class="loader-inner">
+        <div class="loader-heart-anim">
+          <div class="lh lh1">💖</div>
+          <div class="lh lh2">💕</div>
+          <div class="lh lh3">🌸</div>
+        </div>
+        <h2 class="loader-headline">Preparing something special…</h2>
+        <p class="loader-quote" id="loaderQuote">
+          "Love is the greatest adventure."
+        </p>
+        <p class="loader-message" id="loaderMessage">Collecting memories…</p>
+        <div class="loader-track">
+          <div class="loader-fill" id="loaderFill"></div>
+          <span class="loader-pct" id="loaderPct">0%</span>
+        </div>
+        <div class="loader-dots"><span></span><span></span><span></span></div>
+      </div>
+    </div>
+
+    <!-- ========== CONTROLS ========== -->
+    <div class="site-controls" id="siteControls">
+      <button class="ctrl-btn" id="darkModeBtn" title="Toggle dark mode">
+        🌙
+      </button>
+      <button class="ctrl-btn" id="musicBtn" title="Toggle music">🎵</button>
+    </div>
+
+    <!-- ========== FLOATING LAYER ========== -->
+    <div id="floatingHearts" class="floating-hearts" aria-hidden="true"></div>
+    <div id="floatingPetals" class="floating-petals" aria-hidden="true"></div>
+    <div id="floatingStars" class="floating-stars" aria-hidden="true"></div>
+
+    <!-- ========== CONFETTI CANVAS ========== -->
+    <canvas id="confettiCanvas"></canvas>
+
+    <!-- ========== SECTION 2: HERO ========== -->
+    <section id="hero" class="hero-section">
+      <canvas id="heroParticles" class="hero-particles-canvas"></canvas>
+      <div class="hero-aurora"></div>
+      <div class="hero-rays"></div>
+      <div class="hero-clouds">
+        <div class="cloud c1"></div>
+        <div class="cloud c2"></div>
+        <div class="cloud c3"></div>
+      </div>
+
+      <div class="hero-content glass-card" data-parallax="0.3">
+        <p class="hero-pre">🌸 Today is all about you 🌸</p>
+        <h1 class="hero-title">
+          <span class="word-reveal">Happy Birthday,</span><br />
+          <span class="hero-name" id="heroName">You</span>
+          <span class="hero-heart">❤️</span>
+        </h1>
+        <p class="hero-message char-reveal" id="heroMessage">
+          You are the most wonderful person I know.
+        </p>
+
+        <div class="countdown-wrap">
+          <p class="countdown-title">✨ Your special day ends in</p>
+          <div class="countdown-grid">
+            <div class="cd-block">
+              <span class="cd-num" id="cdH">00</span
+              ><span class="cd-lbl">Hours</span>
+            </div>
+            <div class="cd-sep">:</div>
+            <div class="cd-block">
+              <span class="cd-num" id="cdM">00</span
+              ><span class="cd-lbl">Minutes</span>
+            </div>
+            <div class="cd-sep">:</div>
+            <div class="cd-block">
+              <span class="cd-num" id="cdS">00</span
+              ><span class="cd-lbl">Seconds</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator">
+        <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+        <span>Scroll down</span>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 3: TIMELINE ========== -->
+    <section id="timeline" class="section">
+      <div class="section-header reveal">
+        <p class="section-pre">Chapter by chapter</p>
+        <h2 class="section-title">Our Story 📖</h2>
+        <p class="section-sub">Every moment that brought us here</p>
+      </div>
+      <div class="timeline-progress-bar">
+        <div class="tl-progress-fill" id="tlProgressFill"></div>
+      </div>
+      <div class="timeline-track" id="timelineTrack"></div>
+    </section>
+
+    <!-- ========== SECTION 4: PHOTO GALLERY ========== -->
+    <section id="gallery" class="section section-alt">
+      <div class="section-header reveal">
+        <p class="section-pre">Frozen in time</p>
+        <h2 class="section-title">Our Gallery 📸</h2>
+        <p class="section-sub">Every picture tells our story</p>
+      </div>
+      <div class="gallery-grid" id="galleryGrid"></div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox" role="dialog" aria-modal="true">
+      <button class="lb-close" id="lbClose">✕</button>
+      <button class="lb-prev" id="lbPrev">‹</button>
+      <button class="lb-next" id="lbNext">›</button>
+      <div class="lb-img-wrap"><img id="lbImg" src="" alt="" /></div>
+      <p class="lb-caption" id="lbCaption"></p>
+    </div>
+
+    <!-- ========== SECTION 5: OPEN WHEN LETTERS ========== -->
+    <section id="letters" class="section">
+      <div class="section-header reveal">
+        <p class="section-pre">For every feeling</p>
+        <h2 class="section-title">Open When… 💌</h2>
+        <p class="section-sub">Letters for every moment of your heart</p>
+      </div>
+      <div class="letters-grid" id="lettersGrid"></div>
+    </section>
+
+    <!-- Letter Modal -->
+    <div id="letterModal" class="modal" role="dialog" aria-modal="true">
+      <div class="modal-box glass-card letter-modal-box">
+        <button class="modal-close" id="letterModalClose">✕</button>
+        <div class="wax-seal" id="waxSeal">💌</div>
+        <div class="modal-header">
+          <span class="modal-icon" id="modalIcon">💌</span>
+          <h3 class="modal-title" id="modalTitle">Open When…</h3>
+        </div>
+        <div class="modal-body letter-type-body" id="modalBody"></div>
+      </div>
+    </div>
+
+    <!-- ========== SECTION 6: REASONS I LOVE YOU ========== -->
+    <section id="reasons" class="section section-alt">
+      <div class="section-header reveal">
+        <p class="section-pre">Let me count the ways</p>
+        <h2 class="section-title">Reasons I Love You 💝</h2>
+        <p class="section-sub">An endless, growing list</p>
+      </div>
+      <div class="reasons-counter reveal">
+        <span id="reasonsCount">0</span> reasons and counting…
+      </div>
+      <div class="reasons-grid" id="reasonsGrid"></div>
+    </section>
+
+    <!-- ========== SECTION 7: FAVORITE SONGS ========== -->
+    <section id="songs" class="section">
+      <div class="section-header reveal">
+        <p class="section-pre">Our soundtrack</p>
+        <h2 class="section-title">Our Playlist 🎶</h2>
+        <p class="section-sub">Songs that remind me of you</p>
+      </div>
+      <div class="songs-list" id="songsList"></div>
+    </section>
+
+    <!-- ========== SECTION 8: SCRAPBOOK ========== -->
+    <section id="scrapbook" class="section section-alt">
+      <div class="section-header reveal">
+        <p class="section-pre">Random & beautiful</p>
+        <h2 class="section-title">Our Scrapbook 🗒️</h2>
+        <p class="section-sub">Little snapshots of our world</p>
+      </div>
+      <div class="scrapbook-board" id="scrapbookBoard"></div>
+    </section>
+
+    <!-- ========== SECTION 9: BUCKET LIST ========== -->
+    <section id="bucketlist" class="section">
+      <div class="section-header reveal">
+        <p class="section-pre">Adventures ahead</p>
+        <h2 class="section-title">Our Bucket List 🌟</h2>
+        <p class="section-sub">Everything we'll do together</p>
+      </div>
+      <div class="bucket-progress-wrap reveal">
+        <div class="bucket-progress-bar">
+          <div id="bucketProgressFill" class="bucket-progress-fill"></div>
+        </div>
+        <span class="bucket-progress-text" id="bucketProgressText"
+          >0 / 0 completed</span
+        >
+      </div>
+      <div class="bucket-grid" id="bucketGrid"></div>
+    </section>
+
+    <!-- ========== SECTION 10: TRAVEL DREAMS ========== -->
+    <section id="travel" class="section section-alt">
+      <div class="section-header reveal">
+        <p class="section-pre">The world is waiting</p>
+        <h2 class="section-title">Travel Dreams ✈️</h2>
+        <p class="section-sub">Destinations on our hearts</p>
+      </div>
+      <div class="travel-grid" id="travelGrid"></div>
+    </section>
+
+    <!-- ========== SECTION 11: SECRET SURPRISE ========== -->
+    <section id="secret" class="section secret-section">
+      <canvas id="secretCanvas" class="secret-canvas"></canvas>
+      <div class="section-header reveal">
+        <p class="section-pre">You've been warned…</p>
+        <h2 class="section-title">Secret Surprise 🎁</h2>
+      </div>
+      <div class="secret-center reveal">
+        <div class="dont-click-glow"></div>
+        <button class="dont-click-btn" id="dontClickBtn">
+          ⚠️ DON'T CLICK ⚠️
+        </button>
+      </div>
+    </section>
+
+    <!-- Surprise Modal -->
+    <div id="surpriseModal" class="modal" role="dialog" aria-modal="true">
+      <div class="modal-box surprise-box glass-card">
+        <button class="modal-close" id="surpriseModalClose">✕</button>
+        <div class="surprise-fireworks" id="surpriseFireworks"></div>
+        <div class="surprise-emoji" id="surpriseEmoji">🎊</div>
+        <h3 class="surprise-title" id="surpriseTitle">Surprise!</h3>
+        <p class="surprise-msg" id="surpriseMsg"></p>
+        <div class="floating-love-notes" id="floatingLoveNotes"></div>
+      </div>
+    </div>
+
+    <!-- ========== SECTION 12: PERSONAL LETTER ========== -->
+    <section id="letter" class="section">
+      <div class="section-header reveal">
+        <p class="section-pre">Straight from my heart</p>
+        <h2 class="section-title">A Letter For You 💌</h2>
+      </div>
+      <div class="letter-wrap reveal">
+        <div class="letter-paper glass-card">
+          <div class="letter-sparkles" id="letterSparkles"></div>
+          <div class="letter-date" id="letterDate"></div>
+          <div class="letter-salute">
+            My dearest <span id="letterName"></span>,
+          </div>
+          <div class="letter-body typing-cursor" id="letterBody"></div>
+          <div class="letter-sign" id="letterSign">
+            With all my love,<br /><span id="letterSender"></span>
+            <div class="signature-line"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 13: GUESTBOOK ========== -->
+    <section id="guestbook" class="section section-alt">
+      <div class="section-header reveal">
+        <p class="section-pre">Leave a mark</p>
+        <h2 class="section-title">Guestbook 📝</h2>
+        <p class="section-sub">Leave your birthday wishes here</p>
+      </div>
+      <div class="guestbook-form glass-card reveal">
+        <input
+          class="gb-input"
+          id="gbName"
+          type="text"
+          placeholder="Your name"
+          maxlength="40"
+        />
+        <textarea
+          class="gb-input gb-textarea"
+          id="gbMsg"
+          placeholder="Write your birthday wish…"
+          maxlength="280"
+          rows="3"
+        ></textarea>
+        <button class="gb-btn" id="gbSubmit">Send Wish 💖</button>
+      </div>
+      <div class="guestbook-notes" id="guestbookNotes"></div>
+    </section>
+
+    <!-- ========== SECTION 14: REPLAY ========== -->
+    <section id="replay" class="section">
+      <div class="section-header reveal">
+        <p class="section-pre">One more time…</p>
+        <h2 class="section-title">Replay the Journey 🔁</h2>
+      </div>
+      <div class="replay-center reveal">
+        <button class="replay-btn" id="replayBtn">🎬 Replay Our Journey</button>
+      </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer id="footer" class="site-footer">
+      <div class="footer-particles" id="footerParticles"></div>
+      <div class="footer-content">
+        <p class="footer-text">
+          Made with ❤️ for <span id="footerName">you</span>
+        </p>
+        <p class="footer-sub">Forever and always 🌸</p>
+        <div class="footer-hearts">💖 💕 💗 💓 💝</div>
+      </div>
+    </footer>
+
+    <!-- ========== FLOATING QUOTES ========== -->
+    <div id="floatingQuote" class="floating-quote" aria-live="polite"></div>
+
+    <!-- ========== KONAMI OVERLAY ========== -->
+    <div id="konamiOverlay" class="konami-overlay">
+      <div class="konami-box glass-card">
+        <div class="konami-emoji">🎮✨</div>
+        <h3>Cheat Code Unlocked!</h3>
+        <p id="konamiMsg"></p>
+        <button class="konami-close" id="konamiClose">💖 Continue</button>
+      </div>
+    </div>
+
+    <script src="/script.js?v=4"></script>
+  </body>
+</html>
